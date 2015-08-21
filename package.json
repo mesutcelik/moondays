@@ -1,6 +1,6 @@
 {
   "name": "moondays",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get moondays. For Ashtanga Yogis ^^",
   "main": "lib/index.js",
   "scripts": {

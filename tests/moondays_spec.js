@@ -23,7 +23,7 @@ describe("moondays", () => {
         ]
 
         const days = moondays(count, startdate, hour, minute)
-
+        console.log(days)
         expect(
           days.map((day) => {
 
