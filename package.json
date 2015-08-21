@@ -1,0 +1,25 @@
+{
+  "name": "moondays",
+  "version": "1.0.0",
+  "description": "Get moondays. For Ashtanga Yogis ^^",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/babel src/index.js --out-file ./lib/index.js --stage 0"
+  },
+  "keywords": [
+    "ashtanga",
+    "yoga",
+    "moon",
+    "moonday",
+    "rest"
+  ],
+  "author": "Jørn Andre Tangen @gorillatron",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.10.6",
+    "suncalc": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21"
+  }
+}
