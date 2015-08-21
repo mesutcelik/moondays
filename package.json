@@ -1,6 +1,6 @@
 {
   "name": "moondays",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get moondays. For Ashtanga Yogis ^^",
   "main": "lib/index.js",
   "scripts": {
@@ -20,6 +20,8 @@
     "suncalc": "^1.6.0"
   },
   "devDependencies": {
-    "babel": "^5.8.21"
+    "babel": "^5.8.21",
+    "expect": "^1.9.0",
+    "mocha": "^2.2.5"
   }
 }

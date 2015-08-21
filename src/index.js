@@ -20,7 +20,7 @@ export default function moondays(count, startDate = new Date, practiceHour = 1, 
 
     if(isMoonday(day)) {
       let illumination = SunCalc.getMoonIllumination(day)
-      daysFound.push({ day, illumination  })
+      daysFound.push({ date: moment(day), illumination  })
     }
 
     day.add(1, "days")
