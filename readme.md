@@ -4,13 +4,12 @@
 Get a number of moondays(full and new moon dates) based on a start date and when you practice in the day.
 
 ```javascript
-
 import moondays from "moondays"
 
 
 const today = new Date("2015-08-21")
-
 const days = moondays(4, today, 23, 0)
+
 
 days === [
 

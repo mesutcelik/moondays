@@ -1,11 +1,15 @@
 {
   "name": "moondays",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get moondays. Full and new moon days. For Ashtanga Yogis ^^",
   "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --compilers js:babel/register tests/",
     "prepublish": "./node_modules/.bin/babel src/index.js --out-file ./lib/index.js --stage 0"
+  },
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/gorillatron/moondays"
   },
   "keywords": [
     "ashtanga",
