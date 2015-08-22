@@ -1,6 +1,6 @@
 {
   "name": "moondays",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get moondays. Full and new moon days. For Ashtanga Yogis ^^",
   "main": "lib/index.js",
   "scripts": {

@@ -52,3 +52,9 @@ export function isMoonday(day) {
   }
 
 }
+
+
+export function getMoonIllumination(day) {
+  const date = moment(day)
+  return SunCalc.getMoonIllumination(date.toDate())
+}
