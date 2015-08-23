@@ -1,2 +1,4 @@
 repositories:
     - MOONDAYS=bilalyasar/moondays#master#moondays
+version.update:
+    - REACT=json,js
