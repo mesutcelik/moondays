@@ -3,6 +3,6 @@ repositories:
 version.update:
     - MOONDAYS=json,js
 create.artifacts:
-    -MOONDAYS
-        -npm install
-        -npm test
+    - MOONDAYS:
+        - npm install
+        - npm test
