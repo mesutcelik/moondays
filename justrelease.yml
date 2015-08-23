@@ -7,7 +7,7 @@ create.artifacts:
         - npm install
         - npm test
 publish:
-    - github:
-        - MOONDAYS:
+    - MOONDAYS:
+        - github:
             - description=releasenotes.md
             - attachment=lib/index.js
