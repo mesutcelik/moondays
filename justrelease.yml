@@ -6,3 +6,7 @@ create.artifacts:
     - MOONDAYS:
         - npm install
         - npm test
+github:
+    - MOONDAYS:
+        - description=releasenotes.md
+        - attachment=lib/index.js
