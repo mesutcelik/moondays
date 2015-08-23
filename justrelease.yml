@@ -2,3 +2,7 @@ repositories:
     - MOONDAYS=bilalyasar/moondays#master#moondays
 version.update:
     - MOONDAYS=json,js
+create.artifacts:
+    -MOONDAYS
+        -npm install
+        -npm test
