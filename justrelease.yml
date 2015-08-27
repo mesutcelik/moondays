@@ -8,6 +8,6 @@ create.artifacts:
         - npm test
 publish:
     - MOONDAYS:
-        - github
+        - github:
             - description=releasenotes.md
             - attachment=lib/index.js
