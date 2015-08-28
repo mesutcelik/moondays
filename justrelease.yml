@@ -7,4 +7,4 @@ publish:
         - github:
             - description=releasenotes.md
             - attachment=lib/index.js
-        - npm
+        - npm:
