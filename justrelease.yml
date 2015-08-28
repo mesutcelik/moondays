@@ -1,13 +1,10 @@
-repositories:
-    - MOONDAYS=bilalyasar/moondays#master#moondays
 version.update:
-    - MOONDAYS=json,js
+    - json,js
 create.artifacts:
-    - MOONDAYS:
         - npm install
         - npm test
 publish:
-    - MOONDAYS:
         - github:
             - description=releasenotes.md
             - attachment=lib/index.js
+        - npm
