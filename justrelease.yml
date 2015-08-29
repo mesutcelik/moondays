@@ -8,6 +8,6 @@ publish:
             - description=releasenotes.md
             - attachment=lib/index.js
         - npm:
-scm
+scm:
     - commit=${version} has just been released
     - tag=t${version}
