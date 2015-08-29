@@ -1,6 +1,6 @@
 {
   "name": "bilalyasar",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Get moondays. Full and new moon days. For Ashtanga Yogis ^^",
   "main": "lib/index.js",
   "scripts": {
